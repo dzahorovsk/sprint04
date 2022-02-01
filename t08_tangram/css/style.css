@@ -1,0 +1,101 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+h1 {
+    margin-left: 5px;
+    text-align: center;
+}
+.wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 1290px;
+    height: 800px;
+    padding: 10px; 
+    background: lightgray;
+}
+.main {
+    display: block;
+    width: 400px;
+    height: 400px;
+    border: 2px solid brown;
+    background: rgb(59, 59, 59);
+}
+#t1 {
+    display: block;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-left: 200px solid red;
+    border-bottom: 200px solid transparent;
+}
+#t2 {
+    display: block;
+    position: absolute;
+    left: 100px;
+    bottom: 30px;
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid green;
+}
+#t3 {
+    display: block;
+    position: absolute;
+    left: 365px;
+    bottom: 130px;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid rgb(247, 224, 16);
+}
+#t4 {
+    display: block;
+    position: absolute;
+    left: 530px;
+    bottom: 30px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 100px solid blue;
+    border-bottom: 100px solid transparent;
+}
+#t5 {
+    display: block;
+    position: absolute;
+    left: 680px;
+    bottom: 30px;
+    width: 0;
+    height: 0;
+    border-top: 200px solid rgb(129, 11, 240);
+    border-left: 200px solid transparent;
+}
+#t6 {
+    display: block;
+    position: absolute;
+    left: 960px;
+    bottom: 60px;
+    width: 0;
+    height: 142px;
+    border-left: 142px solid darkorange;
+    /* transform: rotate(45deg) */
+}
+#t7 {
+    display: block;
+    position: absolute;
+    left: 1180px;
+    bottom: 80px;
+    width: 100px;
+    height: 200px;
+    background: rgb(245, 76, 132);
+    /* transform: skewY(45deg) */
+}

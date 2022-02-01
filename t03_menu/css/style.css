@@ -1,0 +1,48 @@
+body {
+    font-family: 'Cookie';
+    color: black;
+}
+h1 {
+    margin: 30px auto;
+    font-weight: bold;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto; 
+    margin-left: auto; 
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    background: lightgoldenrodyellow;
+    padding-bottom: 50px;
+    box-shadow: inset 0px 0px 20px 5px orange;
+}
+.board {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin-right: auto; 
+    margin-left: auto; 
+}
+.title {
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    width: 160%;
+}
+.dish {
+    display: flex;
+    justify-content: space-between;
+    width: 160%;
+    font-size: 16px;
+}
+.name {
+    display: block;
+}
+.price {
+    display: block;
+}
